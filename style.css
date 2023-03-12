@@ -1,0 +1,48 @@
+.container {
+  width: 950px;
+  height: 500px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #f00;
+  transform: perspective(180px) rotateX(30deg);
+  transform-origin: right;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.green {
+  background-color: #68c9ba;
+  opacity: 0.1;
+}
+
+.purple {
+  background-color: #9c69e2;
+  opacity: 0.1;
+}
+
+.pink {
+  background-color: #f063b8;
+  opacity: 0.1;
+}
+
+.blue {
+  background-color: #2d9cdb;
+  opacity: 0.1;
+}
+
+p {
+  color: black;
+  z-index: 10;
+  padding-top: 50px;
+}
