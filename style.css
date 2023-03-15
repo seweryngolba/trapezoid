@@ -12,8 +12,7 @@
 .box {
   width: 200px;
   height: 200px;
-  background-color: #f00;
-  transform: perspective(180px) rotateX(30deg);
+  transform: rotateX(30deg);
   transform-origin: right;
   border-radius: 20px;
   display: flex;
@@ -41,8 +40,11 @@
   opacity: 0.1;
 }
 
-p {
+.about {
+  perspective: 1000px;
+  transform: rotateX(0deg);
   color: black;
-  z-index: 10;
+  opacity: 1;
+  font-size: 23px;
   padding-top: 50px;
 }
