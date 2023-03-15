@@ -26,8 +26,7 @@
 }
 
 .purple {
-  background-color: #9c69e2;
-  opacity: 0.1;
+  background-color: rgba(156, 105, 226, 0.1);
 }
 
 .pink {
@@ -41,5 +40,12 @@
 }
 
 .about {
+  color: black;
+  opacity: 1;
+}
+
+.texty {
+  opacity: 1;
+  z-index: 10;
   color: black;
 }
